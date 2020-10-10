@@ -51,7 +51,7 @@
             this.btnEliminar.TabIndex = 1;
             this.btnEliminar.Text = "Eliminar Producto";
             this.btnEliminar.UseVisualStyleBackColor = true;
-         //   this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnSalir
             // 
@@ -62,7 +62,7 @@
             this.btnSalir.TabIndex = 2;
             this.btnSalir.Text = "Cancelar";
             this.btnSalir.UseVisualStyleBackColor = true;
-         //   this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // FormEliminar
             // 
@@ -74,7 +74,7 @@
             this.Controls.Add(this.dgvLista);
             this.Name = "FormEliminar";
             this.Text = "Eliminar";
-         //   this.Load += new System.EventHandler(this.FormEliminar_Load);
+            this.Load += new System.EventHandler(this.FormEliminar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).EndInit();
             this.ResumeLayout(false);
 

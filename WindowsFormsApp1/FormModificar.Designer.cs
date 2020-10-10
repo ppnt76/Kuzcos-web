@@ -61,7 +61,7 @@
             this.bAceptar.TabIndex = 0;
             this.bAceptar.Text = "Aceptar";
             this.bAceptar.UseVisualStyleBackColor = true;
-            //this.bAceptar.Click += new System.EventHandler(this.bAceptar_Click);
+            this.bAceptar.Click += new System.EventHandler(this.bAceptar_Click);
             // 
             // bCancelar
             // 
@@ -72,7 +72,7 @@
             this.bCancelar.TabIndex = 1;
             this.bCancelar.Text = "Cancelar";
             this.bCancelar.UseVisualStyleBackColor = true;
-           // this.bCancelar.Click += new System.EventHandler(this.bCancelar_Click);
+            this.bCancelar.Click += new System.EventHandler(this.bCancelar_Click);
             // 
             // lCodigo
             // 
@@ -94,7 +94,7 @@
             this.tBuscar.Name = "tBuscar";
             this.tBuscar.Size = new System.Drawing.Size(300, 20);
             this.tBuscar.TabIndex = 3;
-          //  this.tBuscar.TextChanged += new System.EventHandler(this.tBuscar_TextChanged);
+            this.tBuscar.TextChanged += new System.EventHandler(this.tBuscar_TextChanged);
             // 
             // bEditar
             // 
@@ -105,7 +105,7 @@
             this.bEditar.TabIndex = 4;
             this.bEditar.Text = "Editar";
             this.bEditar.UseVisualStyleBackColor = true;
-         //   this.bEditar.Click += new System.EventHandler(this.bEditar_Click);
+            this.bEditar.Click += new System.EventHandler(this.bEditar_Click);
             // 
             // dGVModificar
             // 
@@ -302,7 +302,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "FormModificar";
             this.Text = "Modificar";
-          //  this.Load += new System.EventHandler(this.FormModificar_Load);
+            this.Load += new System.EventHandler(this.FormModificar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dGVModificar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -12,7 +12,7 @@ namespace Catologo
 {
     public class AccesoDatos 
     {
-        private SqlConnection Conexion = new SqlConnection("Server=(local); Database=CATALOGO_DB; integrated security=true");
+        private SqlConnection Conexion = new SqlConnection("data source=DESKTOP-GPR5PDL\\SQLEXPRESS; initial catalog=CATALOGO_DB; integrated security=true");
         public SqlConnection AbrirConexion()
         {
             if (Conexion.State == ConnectionState.Closed)

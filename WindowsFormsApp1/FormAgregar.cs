@@ -14,7 +14,9 @@ namespace WindowsFormsApp1
 {
     public partial class FormAgregar : Form
     {
-      public FormAgregar()
+       
+        
+        public FormAgregar()
         {
             InitializeComponent();
             this.MaximizeBox = false;
@@ -46,7 +48,7 @@ namespace WindowsFormsApp1
                 articulo.Codigo = tCodigo.Text;
                 articulo.Descripcion = tBDesc.Text;
                 articulo.Imagen = tBImagen.Text;
-                articulo.Marca = (Dominio.Marcas)cBMarca.SelectedItem;          //cBMarca.SelectedItem;
+                articulo.Marca = (Dominio.Marcas)cBMarca.SelectedItem;
                 articulo.categoria = (Dominio.Categoria)cBCategoria.SelectedItem;
                 articulo.Precio = Convert.ToDecimal(tBPrecio.Text);
                 Agregar.Agregar(articulo);
@@ -72,7 +74,7 @@ namespace WindowsFormsApp1
                 cBMarca.DisplayMember = "Descripcion";
                 cBMarca.ValueMember = "Id";
                 cBMarca.SelectedIndex = -1;
-                cBMarca.SelectedValue = articulo.Marca.idMarca;     
+                cBMarca.SelectedValue = articulo.Marca.idMarca;
             }
             catch(Exception ex)
             {
@@ -85,7 +87,7 @@ namespace WindowsFormsApp1
                 cBCategoria.DisplayMember = "Descripcion";
                 cBCategoria.ValueMember = "Id";
                 cBCategoria.SelectedIndex = -1;
-               cBCategoria.SelectedValue = articulo.categoria.idCategoria;
+                cBCategoria.SelectedValue = articulo.categoria.idCategoria;
             }
             catch (Exception ex)
             {

@@ -10,12 +10,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Catologo;
-
+using Dominio;
 
 namespace WindowsFormsApp1
 {
     public partial class FormModificar : Form
-    {/*
+    {
        
 
         public List<Articulos> Lista { get; private set; }
@@ -150,6 +150,6 @@ namespace WindowsFormsApp1
                 throw ex;
             }
            
-        }*/
+        }
     }
 }

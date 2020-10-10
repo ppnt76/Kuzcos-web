@@ -58,7 +58,7 @@
             this.bAceptar.TabIndex = 0;
             this.bAceptar.Text = "Aceptar";
             this.bAceptar.UseVisualStyleBackColor = true;
-           this.bAceptar.Click += new System.EventHandler(this.bAceptar_Click);
+            this.bAceptar.Click += new System.EventHandler(this.bAceptar_Click);
             // 
             // bCancelar
             // 

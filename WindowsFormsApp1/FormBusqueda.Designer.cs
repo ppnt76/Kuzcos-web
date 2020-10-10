@@ -54,7 +54,7 @@
             this.btnSalir.TabIndex = 1;
             this.btnSalir.Text = "Cancelar";
             this.btnSalir.UseVisualStyleBackColor = false;
-          //  this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // label1
             // 
@@ -80,7 +80,7 @@
             this.txtboxBusqueda.Name = "txtboxBusqueda";
             this.txtboxBusqueda.Size = new System.Drawing.Size(300, 20);
             this.txtboxBusqueda.TabIndex = 3;
-           // this.txtboxBusqueda.TextChanged += new System.EventHandler(this.txtboxBusqueda_TextChanged);
+            this.txtboxBusqueda.TextChanged += new System.EventHandler(this.txtboxBusqueda_TextChanged);
             // 
             // FormBusqueda
             // 
@@ -93,7 +93,7 @@
             this.Controls.Add(this.dgvLista);
             this.Name = "FormBusqueda";
             this.Text = "Busqueda";
-          //  this.Load += new System.EventHandler(this.FormBusqueda_Load);
+            this.Load += new System.EventHandler(this.FormBusqueda_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

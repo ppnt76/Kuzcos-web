@@ -34,12 +34,9 @@ namespace WindowsFormsApp1
                 dgvLista.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                 dgvLista.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
                 dgvLista.BackgroundColor = System.Drawing.SystemColors.Control;
-                dgvLista.Columns[0].Visible = true;
-                dgvLista.Columns[1].Visible = true;
-            dgvLista.Columns[2].Visible = true;
-            dgvLista.Columns[3].Visible = true;
-            dgvLista.Columns[4].Visible = true;
-            dgvLista.Columns[5].Visible = true;
+                dgvLista.Columns[0].Visible = false;
+                dgvLista.Columns[1].Visible = false;
+                dgvLista.Columns[8].Visible = false;
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

@@ -14,7 +14,7 @@ namespace WindowsFormsApp1
 {
     public partial class FormBusqueda : Form
     {
-       /* public List<Articulos> Lista { get; private set; }
+        public List<Articulos> Lista { get; private set; }
 
         public FormBusqueda()
         {
@@ -71,6 +71,6 @@ namespace WindowsFormsApp1
                 throw ex;
             }
             
-        }*/
+        }
     }
 }

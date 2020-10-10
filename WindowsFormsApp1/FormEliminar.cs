@@ -14,7 +14,7 @@ namespace WindowsFormsApp1
 {
     public partial class FormEliminar : Form
     {
-        /*public FormEliminar()
+        public FormEliminar()
         {
             InitializeComponent();
             this.MaximizeBox = false;
@@ -64,6 +64,6 @@ namespace WindowsFormsApp1
             {
                 throw ex;
             }
-        }*/
+        }
     }
 }
