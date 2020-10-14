@@ -28,3 +28,15 @@ C:\Users\Administrador\Desktop\GitHub\TPWinForm_Orellana_Pieruzzini\TPWinForm_Or
 C:\Users\Administrador\Desktop\GitHub\TPWinForm_Orellana_Pieruzzini\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\Desktop\GitHub\TPWinForm_Orellana_Pieruzzini\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.dll
 C:\Users\Administrador\Desktop\GitHub\TPWinForm_Orellana_Pieruzzini\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.pdb
+C:\Users\carlos\Desktop\git\TP2Programacion3\Kuzcos-web\Dominio\bin\Debug\Dominio.dll
+C:\Users\carlos\Desktop\git\TP2Programacion3\Kuzcos-web\Dominio\bin\Debug\Dominio.pdb
+C:\Users\carlos\Desktop\git\TP2Programacion3\Kuzcos-web\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\carlos\Desktop\git\TP2Programacion3\Kuzcos-web\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\carlos\Desktop\git\TP2Programacion3\Kuzcos-web\Dominio\obj\Debug\Dominio.dll
+C:\Users\carlos\Desktop\git\TP2Programacion3\Kuzcos-web\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Administrador\Downloads\Kuzcos-web\Dominio\bin\Debug\Dominio.dll
+C:\Users\Administrador\Downloads\Kuzcos-web\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Downloads\Kuzcos-web\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Administrador\Downloads\Kuzcos-web\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Downloads\Kuzcos-web\Dominio\obj\Debug\Dominio.dll
+C:\Users\Administrador\Downloads\Kuzcos-web\Dominio\obj\Debug\Dominio.pdb
